@@ -16,6 +16,10 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.text-primary {
+    color: #034f84;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -173,7 +177,7 @@ hr.small {
 
 .services {
     background-color: #618685;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
 }
 
 .service-item {
@@ -216,11 +220,12 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
+    background-color: #618685;
 }
 
 .call-to-action .btn {
     margin: 10px;
-    background-color: #36486b;
+    background-color: #034f84;
 }
 
 /* Map */
